@@ -1,0 +1,54 @@
+.conainer{
+    height: 300px;
+    width: auto;
+    text-align: start;
+}
+.content{
+    position: relative;
+    color: white;
+    top: 100px;
+    left: 156px;
+    color: white;
+    
+}
+.conainer h2{
+    /* font-size: 40px; */
+    font-size: 26px;
+    font-weight: 600;
+    /* padding: 10px 0; */
+    text-align: start;
+}
+.conainer p{
+    font-size: 16px;
+    font-weight: 300;
+    width: 300px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 619px) {
+    .conainer{
+        height: 260px;
+        width: auto;
+    }
+    .content{
+    height: inherit;
+    position: static;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    }
+    .content>h2{
+    font-size: 22px;
+    font-weight: 600;
+    }
+    .content> p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    }
+    
+}

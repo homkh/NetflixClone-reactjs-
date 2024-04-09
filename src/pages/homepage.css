@@ -1,0 +1,33 @@
+.firstSection{
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 96vh;
+    width: 100%;
+    position: relative;
+  }
+  .overLay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  .items{
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    width: auto;
+    align-items: center;
+    text-align: center;
+  }
+  @media screen and (max-width: 600px){
+    .firstSection{
+      height: 562px;
+      width: 100%;
+      background-size: cover;
+    }
+  }

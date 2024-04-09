@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    width: 70vw;
+    margin: 40px auto;
+    font-size: 13px;
+    font-weight: 200;
+    gap: 13px;
+    }
+    .topSection > p{
+        text-decoration: underline;
+    }
+    .buttomSection{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     color: white;
+     margin: auto;
+     gap: 163px;
+     flex-wrap: wrap;
+    }
+    .buttomSection >div >ul{
+        list-style-type: none;
+    }
+    .buttomSection >div >ul >li >a{
+        margin: 20px 0;
+        color: white;
+    }
+    .buttomSection >div >ul >li{
+        margin: 10px 0;
+    }
+    .btn button{
+    background-color: rgba(68, 66, 66, 0.253);
+    padding: 7px 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    }
+    @media screen and (max-width:619px){
+        .buttomSection{
+            gap: 14px;
+        }
+    }

@@ -1,0 +1,42 @@
+.navBar{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px auto;
+}
+.logo img{
+    width: 115px;
+    height: auto;
+}
+.btnRed{
+color: white;
+font-weight: 600;
+background-color: rgba(240, 7, 7, 0.993);
+padding: 10px 20px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+button :hover{
+    background-color: rgba(14, 128, 103, 0.925);
+}
+@media screen and (max-width: 600px) {
+    .navBar{
+        width: 74%;
+        height: auto;
+        margin: 25px auto;
+    }
+    .logo img{
+        /* width: 90px; */
+        width: 79px;
+        height: auto;
+    }
+    .btnRed{
+        color: white;
+        background-color: rgba(240, 7, 7, 0.993);
+        padding: 7px 17px;
+        border: none;
+        border-radius: 5px;
+        }
+}

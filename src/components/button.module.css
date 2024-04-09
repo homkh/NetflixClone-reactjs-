@@ -1,0 +1,28 @@
+.btn button{
+    background-color: rgba(240, 9, 9, 0.938);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 23px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+.icon{
+    width: 20px;
+    color: white;
+}
+.btn :hover{
+    background-color: rgba(182, 33, 33, 0.952);
+}
+@media screen and (max-width:600px){
+   .icon img{
+    display: none;
+   }
+    button{
+        display: inline;
+        gap: 0;
+    }
+}

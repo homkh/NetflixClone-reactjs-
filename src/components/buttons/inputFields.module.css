@@ -1,0 +1,21 @@
+.input{
+    padding: 12px 53px;
+    background-color: rgba(44, 44, 44, 0.37);
+    /* border-bottom: 2px solid yellow; */
+    border-radius: 4px;
+    border: 1px solid rgba(218, 209, 209, 0.712);
+    border-bottom: 2px solid rgb(197, 148, 11);
+    color: white;
+    margin-bottom: 15px;
+}
+
+::placeholder{
+    color: rgba(201, 212, 221, 0.788);
+    font-size: 14px;
+    text-align: left;
+}
+.input:focus {
+  border: 1px solid red;
+  outline: none;
+  padding: 13px 55px;
+}

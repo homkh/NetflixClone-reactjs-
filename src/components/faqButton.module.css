@@ -1,0 +1,33 @@
+.btnContainer{
+    display: flex;
+    height: 55px;
+    width: 74vw;
+    margin: 8px 0;
+    background-color: #545454;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    cursor: pointer;
+}
+.heading{
+font-size: 20px;
+}
+.plushimg{
+    width: 35px;
+}
+
+@media screen and (max-width: 619px) {
+    .btnContainer{
+        height: 33px;
+        /* width: 300px; */
+        width: auto;
+    }
+
+    
+    .heading{
+        font-size: 15px;
+    }
+    .plushimg{
+        width: 20px;
+    }
+}

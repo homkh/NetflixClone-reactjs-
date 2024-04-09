@@ -1,0 +1,201 @@
+.container{
+    background-image: url('../assets/bg.jpg');
+    height: 860px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.562);
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    width: 140px;
+    height: auto;
+    margin: 20px 25px;
+}
+.header{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.loginsec{
+    width: 370px;
+    height: 490px;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 6px;
+    margin-bottom: 47px;
+}
+.logCont{
+    margin: 20px;
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.logCont{
+    position: relative;
+    gap: 40px;
+}
+.firstSec{
+    text-align: center;
+}
+.firstSec > h3{
+    text-align: left;
+    /* justify-content: start; */
+    margin-bottom: 14px;
+    color: white;
+    font-size: 27px;
+
+}
+/* form :nth-child(1){
+    padding: 12px 53px;
+    background-color: rgba(44, 44, 44, 0.37);
+    border: 1px solid rgba(218, 209, 209, 0.712);
+    border-radius: 4px;
+    margin: 7px 0;
+    margin-bottom: 14px;
+    border-bottom: 2px solid rgb(197, 148, 11);
+    color:white;
+    
+} */
+
+/* form :nth-child(2){
+    padding: 12px 53px;
+    background-color: rgba(44, 44, 44, 0.37);
+    border-radius: 4px;
+    border: 1px solid rgba(218, 209, 209, 0.712);
+    border-bottom: 2px solid rgb(197, 148, 11);
+    color: white;
+} */
+.firstSec p{
+    color: white;
+    padding: 13px;
+}
+/* ::placeholder{
+    color: rgba(201, 212, 221, 0.788);
+    font-size: 14px;
+    text-align: left;
+}
+input:focus {
+  border: 1px solid red;
+  outline: none;
+} */
+.btn{
+    padding: 12px 116px;
+    font-weight: 600;
+    /* margin-top: 30px; */
+}
+.btn :hover{
+    background-color: rgba(236, 11, 11, 0.781);
+}
+.checkBox{
+    margin: 12px 0;
+    color: rgba(211, 195, 195, 0.836);
+    
+}
+.helpText{
+    margin-left: 90px;
+}
+.secSec{
+    padding: 0 30px;
+    /* align-self: start; */
+    text-align: start;
+    color: white;
+    display: inline;
+}
+.secSec p{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 200;
+    color: rgba(184, 184, 184, 0.904);
+}
+.new{
+    color: rgba(184, 184, 184, 0.904);
+}
+.signUp{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* This is an styles sheets for the footer */
+.footer{
+    /* margin-top: 47px; */
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width:100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.fotterCont{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 180px;
+    /* background-color: red; */
+    margin: 20px auto;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+.subContainer{
+display: flex;
+justify-content: space-between;
+margin-top: 12px;
+}
+.subContainer div p{
+    padding: 5px 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dropdown >button{
+display: inline;
+margin-top: 15px;
+border: 1px solid white;
+padding: 6px 34px;
+background-color: rgba(0, 0, 0, 0.596);
+}
+.dropdown >button img{
+    width: 12px;
+}
+@media screen and (max-width:619px){
+    .container{
+        width: auto;
+        height: 788px;
+        /* background-color: black; */
+        /* display: none; */
+    }
+    .overlay{
+        background-color: black;
+    }
+    .logo{
+        width: 100px;
+        height: auto;
+    }
+    .loginsec{
+        height: 445px;
+        margin-bottom: 36px;
+    }
+    .footer{
+        text-align: center;
+    }
+
+}

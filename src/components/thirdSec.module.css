@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 60vh;
+    /* height: auto; */
+    
+}
+.image{
+    width: 440px
+
+}
+.title > p{
+    font-size: 45px;
+    color: white;
+    font-weight: 800;
+    width: 35vw;
+}
+.descritpion >p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    width: 26vw;
+}
+.rightSec{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+@media screen and (max-width:619px){
+    .image{
+        width: 290px;
+        height: auto;
+    }
+    .rightSec{
+    width: 225px;
+    text-align: center;
+    align-items: center;
+    }
+    .container{
+        flex-direction: column-reverse;
+        margin: 28px auto;
+        height: auto;
+    }
+
+    .title >p{
+        font-size: 27px;
+        font-weight: 600;
+        width: 165px;
+    }
+    .descritpion p{
+        width: 165px;
+    }
+    
+}

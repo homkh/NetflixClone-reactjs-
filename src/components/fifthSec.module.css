@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 60vh;
+    gap: 15px;
+    
+}
+.image{
+    width: 440px
+}
+.title > p{
+    font-size: 45px;
+    color: white;
+    font-weight: 800;
+    width: 34vw;
+}
+.descritpion >p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    width: 26vw;
+}
+.rightSec{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+@media screen and (max-width: 619px) {
+    .container{
+        flex-direction: column-reverse;
+        height: 500px;
+        text-align: center;
+        width: auto;
+    }
+    .image{
+        width: 250px;
+    }
+    .rightSec{
+    width: 258px;
+    align-items: center;
+    }
+    .title >p{
+    font-size: 30px;
+    font-weight: 600;
+    width: 39vw;
+    }
+    .descritpion >p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 36vw;
+    }
+    
+}

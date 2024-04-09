@@ -1,0 +1,70 @@
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 530px;
+    height: 315px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+@media screen and (max-width:619px) {
+    .first{
+        height: 570px;
+        flex-direction: column-reverse;
+        gap: 2px;
+    }
+    .secImg img {
+        width: 300px;
+     }
+     .secImg video {
+        top: 51px;
+        right: 0;
+        width: 300px;
+        height: 200px;
+    }
+    section.first>div :nth-child(1) {
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    section.first>div :nth-child(2) {
+        font-size: 19px;
+        text-align: center;
+    
+    }
+    }

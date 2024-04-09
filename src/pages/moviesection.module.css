@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Telex&display=swap');
+
+.mainContainer {
+    background-image: url('../assets/poster-movie.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 85vh;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.logoSec {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.logo {
+    max-width: 120px;
+    height: auto;
+}
+
+.textSec {
+    /* background-color: red; */
+    margin-left: 60px;
+    margin-top: 102px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    color: white;
+}
+
+.favbutton {
+    text-align: center;
+}
+.favbutton button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 5px;
+    border-radius: 0px 26px 0px 26px;
+    border: 1px solid goldenrod;
+}
+.favbutton button img {
+    width: 24px;
+    height: 24px;
+}
+
+.textSec img {
+    width: 100px;
+    mix-blend-mode: darken;
+    filter: saturate(1000);
+}
+
+.textSec>p {
+    text-align: start;
+}
+
+.bt1 {
+    padding: 8px 25px;
+    background-color: white;
+    color: black;
+}
+
+.bt2 {
+    padding: 8px 25px;
+    color: white;
+    background-color: rgba(110, 108, 108, 0.5);
+}
+
+.watchMovie {
+    /* background-color: rgba(0, 0, 0, 0.658); */
+    min-height: 450px;
+    max-width: 90%;
+    /* background-color: blueviolet; */
+    margin: 40px auto;
+}
+
+.watchMovie>p {
+    text-align: start;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    color: #FF9800;
+    padding: 16px 0;
+}
+
+.moviePost {
+    color: white;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    gap: 18px;
+}
+
+.posterSec {
+    width: 350px;
+    min-height: 600px;
+    background-color: #363333e0;
+    text-align: center;
+    border: 1px solid #FAEED1;
+    border-radius: 9px;
+    font-family: "Telex", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.moviePost :hover {
+    background-color: #527853;
+    transition-duration: 2000ms;
+}
+
+.posterSec>img {
+    border-radius: 6px;
+    width: 310px;
+    /* height: 417px; */
+    height: 370px;
+    object-fit: cover;
+}
+
+.posterSec :nth-child(6) {
+    text-align: justify;
+    padding: 6px 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.posterSec :nth-child(2) {
+    text-decoration: underline;
+    padding-top: 11px;
+}
+
+/* .posterSec button img{
+    pointer-events: none;
+    height: 20px;
+    max-width: 15px;
+    background-blend-mode: darken;
+} */
+
+.posterSec button {
+    margin: 3px;
+    background-color: #ff0800;
+}
